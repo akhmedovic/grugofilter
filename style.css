@@ -1,0 +1,155 @@
+*{  
+    margin:0;
+    padding:0;
+}
+
+body {
+    width: 950px;
+    height: 780px;
+    
+    margin: 0 auto;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+.modal { 
+    margin: 0 auto;   
+    margin-top: 132px;
+    background-color: #fff;
+    width: 620px;
+    height: 490px;
+    border-radius: 10px;
+
+
+}
+
+.modal-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.modal-content-left, .modal-content-right {
+    width: 310px;
+    height: 400px;
+}
+
+
+.modal-header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+.modal-title {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.modal-close {
+    text-decoration: none;
+    border: none;
+    background: none;
+    color: white;
+    font-weight: 900;
+    padding-right: 15px;
+}
+
+.check-friend {
+    padding-top: 12px;
+    padding-left: 15px;
+    
+}
+
+header{
+    height: 45px;
+    background-color: #ff8663;
+    font-size: 16px;
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+input {
+    padding-left: 15px;
+}
+
+.modal-search {
+    background-color: #f0f0f0;
+}
+
+#search-input, #search-text {
+    background: #fff;
+    text-decoration: none;
+    border: none;
+    width: 275px;
+    height: 25px;
+    border-radius: 12px;
+    margin: 9px 11px;
+}
+
+h3 {
+    margin-top: 14px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+li {
+    list-style-type: none;
+    margin: 0 15px;
+    padding: 5px 5px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+li:nth-child(1) {
+    border-top: 1px solid #f0f0f0;
+}
+
+.modal-content-left li:nth-child(2)::before {
+    background-color: #000;
+}
+
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f0f0f0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.friends {
+    
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    
+}
+
+.friend-photo {
+    border-radius: 50%;
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.friend-name {
+    margin-left: 5px;
+}
+
+.save {
+    background-color: #ff8663;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin: 7px 8px;
+    color: white;
+}
